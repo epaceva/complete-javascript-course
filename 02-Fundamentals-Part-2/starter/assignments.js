@@ -33,3 +33,12 @@ const populationBulgaria2 = percentageOfWorld2(7);
 const populationPortugal2 = percentageOfWorld2(11);
 console.log(populationChina2, populationBulgaria2, populationPortugal2);
 */
+// *******************************************
+//Arrow Functions
+/*
+const percentageOfWorld3 = population => (population / 7900) * 100;
+const populationChina3 = percentageOfWorld3(1441);
+const populationBulgaria3 = percentageOfWorld3(7);
+const populationPortugal3 = percentageOfWorld3(11);
+console.log(populationChina3, populationBulgaria3, populationPortugal3);
+*/
