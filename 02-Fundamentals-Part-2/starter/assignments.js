@@ -42,3 +42,18 @@ const populationBulgaria3 = percentageOfWorld3(7);
 const populationPortugal3 = percentageOfWorld3(11);
 console.log(populationChina3, populationBulgaria3, populationPortugal3);
 */
+// *******************************************
+//Functions Calling Other Functions
+/*
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+const describePopulation = function(country, population) {
+    const percentage = percentageOfWorld3(population);
+    return `${country} has ${population} million people with is about ${percentage} of the world.`
+}
+
+
+console.log(describePopulation('China',1441));
+console.log(describePopulation('Bulgaria', 7));
+console.log(describePopulation('Portugal', 11));
+*/
