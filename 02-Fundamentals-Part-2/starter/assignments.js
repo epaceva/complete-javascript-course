@@ -71,3 +71,21 @@ function percentageOfWorld1(population) {
 const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
 console.log(percentages);
 */
+// *******************************************
+//Basic Array Operations
+/*
+const neighbours = ['Greece', 'Macedonia', 'Serbia', 'Romania', 'Turkey'];
+console.log(neighbours);
+neighbours.push('Utopia');
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes('Germany')) {
+    console.log('Probably not a central European country :D')
+}
+neighbours[neighbours.indexOf('Macedonia')] = 'North Macedonia';
+console.log(neighbours);
+*/
+
+
