@@ -87,5 +87,35 @@ if (!neighbours.includes('Germany')) {
 neighbours[neighbours.indexOf('Macedonia')] = 'North Macedonia';
 console.log(neighbours);
 */
+// *******************************************
+//Introduction to Objects
+/*
+const myCountry = {
+    country: 'Bulgaria',
+    capital: 'Sofia',
+    language: 'bulgarian',
+    population: 7,
+    neighbours: ['Greese', 'Macedonia', 'Serbia', 'Romania', 'Turkey']
+};
+*/
+// *******************************************
+// Dot vs.Bracket Notation
+/*
+const myCountry = {
+    country: 'Bulgaria',
+    capital: 'Sofia',
+    language: 'bulgarian',
+    population: 7,
+    neighbours: ['Greese', 'Macedonia', 'Serbia', 'Romania', 'Turkey']
+};
+console.log(`${myCountry.country} has ${myCountry.population} millions ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring contries and a capital called ${myCountry.capital}.`);
+
+myCountry.population += 2;
+console.log(myCountry.population);
+myCountry['population'] -= 2;
+console.log(myCountry.population);
+*/
+// *******************************************
+// Object Methods
 
 

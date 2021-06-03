@@ -180,6 +180,53 @@ if (friends.includes('Steven')) {
     console.log('You have a friend called Steven');
 }
 */
+// *******************************************
+//Introduction to Objects
+/*
+const evaArray = ['Eva', 'Paceva', '2037 - 1982', 'QA', ['Michael', 'Peter', 'Steven']];
 
+const eva = {
+    firstName: 'Eva',
+    lastName: 'Paceva',
+    age: 2037 - 1982,
+    job: 'QA',
+    friends: ['Michael', 'Peter', 'Steven']
+};
+*/
+// *******************************************
+// Dot vs.Bracket Notation
+/*
+const eva = {
+    firstName: 'Eva',
+    lastName: 'Paceva',
+    age: 2037 - 1982,
+    job: 'QA',
+    friends: ['Michael', 'Peter', 'Steven']
+};
+console.log(eva);
+console.log(eva.lastName);
+console.log(eva['lastName']);
 
+const nameKey = 'Name';
+console.log(eva['first' + nameKey]);
+console.log(eva['last' + nameKey]);
 
+//console.log(eva.'last' + nameKey); not working
+
+// const interestedIn = prompt('What do you want to know about Eva? Choose between firstName, lastName, age, job and friends ');
+
+// if (eva[interestedIn]) {
+//     console.log(eva[interestedIn]);
+// } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job and friends');
+// }
+eva.location = 'Bulgaria';
+eva['facebook'] = 'N/A';
+console.log(eva);
+
+//challenge
+//Eva has 3 friends, and her best friend is called Michael"
+console.log(`${eva.firstName} has ${eva.friends.length} friends, and her best friend is called ${eva.friends[0]}.`);
+*/
+// *******************************************
+// Object Methods
