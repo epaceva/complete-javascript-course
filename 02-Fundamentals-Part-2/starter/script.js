@@ -230,3 +230,37 @@ console.log(`${eva.firstName} has ${eva.friends.length} friends, and her best fr
 */
 // *******************************************
 // Object Methods
+/*
+const eva = {
+    firstName: 'Eva',
+    lastName: 'Paceva',
+    birthYear: 1982,
+    job: 'QA',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriverLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2037 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     console.log(this);
+    //     return 2037 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-years old ${eva.job}, and she has ${this.hasDriverLicense ? 'a' : 'no'} driver's license.`
+    }
+};
+
+console.log(eva.calcAge(1982));
+console.log(eva['calcAge'](1982));
+console.log(eva.age);
+
+//Chalenge
+console.log(eva.getSummary());
+*/

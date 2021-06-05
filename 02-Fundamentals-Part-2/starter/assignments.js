@@ -117,5 +117,23 @@ console.log(myCountry.population);
 */
 // *******************************************
 // Object Methods
+/*
+const myCountry = {
+    country: 'Bulgaria',
+    capital: 'Sofia',
+    language: 'bulgarian',
+    population: 7,
+    neighbours: ['Greese', 'Macedonia', 'Serbia', 'Romania', 'Turkey'],
 
+    describe: function () {
+        return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`;
+    },
+    checkIsland: function () {
+        this.isIsland = this.neighbours.length === 0 ? true :
+            false;
+    }
+};
 
+console.log(myCountry.describe());
+console.log(myCountry.checkIsland());
+*/
