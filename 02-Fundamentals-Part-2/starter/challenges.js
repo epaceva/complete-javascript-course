@@ -38,3 +38,41 @@ console.log(bills);
 console.log(tips);
 console.log(totals);
 */
+// *******************************************
+//Challenge #2
+/*
+const mark = {
+    firstName: 'Mark',
+    lastName: 'Miller',
+    weights: 78,
+    heights: 1.69,
+
+    calcBMI: function () {
+        this.BMI = this.weights / this.heights ** 2;
+        return this.BMI;
+    }
+};
+
+const john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    weights: 92,
+    heights: 1.95,
+
+    calcBMI: function () {
+        this.BMI = this.weights / this.heights ** 2;
+        return this.BMI;
+    }
+};
+
+const higherBMI = function () {
+    if (mark.BMI > john.BMI) {
+        console.log(`${mark.firstName} ${mark.lastName}'BMI (${mark.BMI}) is higher than ${john.firstName} ${john.lastName}'BMI (${john.BMI})!`);
+    } else {
+        console.log(`${john.firstName} ${john.lastName}'BMI (${john.BMI}) is higher than ${mark.firstName} ${mark.lastName}'BMI (${mark.BMI})!`);
+    }
+}
+mark.calcBMI();
+john.calcBMI();
+higherBMI();
+*/
