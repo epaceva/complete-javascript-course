@@ -264,3 +264,56 @@ console.log(eva.age);
 //Chalenge
 console.log(eva.getSummary());
 */
+// *******************************************
+//Iteration: The for Loop
+/*
+console.log('Lifting weights repetition 1');
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep}`);
+}
+*/
+// *******************************************
+//Looping Arrays, Breaking and Continuing
+/*
+const eva = [
+    'Eva',
+    'Paceva',
+    2037 - 1982,
+    'QA',
+    ['Michael', 'Peter', 'Steven'],
+    true
+];
+const types = [];
+
+
+for (let i = 0; i < eva.length; i++) {
+    //reading array
+    console.log(eva[i], typeof eva[i]);
+    //Filling types aray
+    // types[i] = typeof eva[i];
+    types.push(typeof eva[i]);
+};
+
+console.log(types);
+
+const years = [1991, 2007, 1982, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+console.log(ages);
+
+//continue and break
+console.log('----ONLY STRINGS-----')
+for (let i = 0; i < eva.length; i++) {
+    if (typeof eva[i] !== 'string') continue;
+    console.log(eva[i], typeof eva[i]);
+}
+console.log('----BREAK WITH NUMBER-----')
+for (let i = 0; i < eva.length; i++) {
+    if (typeof eva[i] === 'number') break;
+    console.log(eva[i], typeof eva[i]);
+}
+*/

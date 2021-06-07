@@ -137,3 +137,26 @@ const myCountry = {
 console.log(myCountry.describe());
 console.log(myCountry.checkIsland());
 */
+// *******************************************
+//Iteration: The for Loop
+/*
+for (let i = 1; i <= 50; i++) {
+    console.log(`Voter number ${i} is currently voting!`);
+}
+*/
+// *******************************************
+//Looping Arrays, Breaking and Continuing
+/*
+const populations = ['10', '1441', '332', '83'];
+const percentage = [];
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+for (let i = 0; i < populations.length; i++) {
+    const perc = percentageOfWorld1(populations[i]);
+    percentage.push(perc);
+}
+
+console.log(percentage);
+*/
