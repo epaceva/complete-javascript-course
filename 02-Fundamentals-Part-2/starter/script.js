@@ -317,3 +317,28 @@ for (let i = 0; i < eva.length; i++) {
     console.log(eva[i], typeof eva[i]);
 }
 */
+// *******************************************
+// Looping Backwards and Loops in Loops
+/*
+const eva = [
+    'Eva',
+    'Paceva',
+    2037 - 1982,
+    'QA',
+    ['Michael', 'Peter', 'Steven'],
+    true
+];
+
+for (let i = eva.length; i >= 0; i--) {
+    console.log(i, eva[i]);
+}
+
+//Loop in loop
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`----Starting exercise ${exercise}---`);
+
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Lifting weght repetition ${rep}`);
+    }
+}
+*/
