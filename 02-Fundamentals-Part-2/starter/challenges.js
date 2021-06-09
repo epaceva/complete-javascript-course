@@ -39,7 +39,7 @@ console.log(tips);
 console.log(totals);
 */
 // *******************************************
-//Challenge #2
+//Challenge #3
 /*
 const mark = {
     firstName: 'Mark',
@@ -75,4 +75,37 @@ const higherBMI = function () {
 mark.calcBMI();
 john.calcBMI();
 higherBMI();
+*/
+// *******************************************
+//Challenge #4
+/*
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+const calcTip = function (bill) {
+    return bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2
+};
+
+let i = 0;
+while (i < bills.length) {
+    tips.push(calcTip(bills[i]));
+    totals.push(tips[i] + bills[i]);
+    i++;
+}
+console.log(bills);
+console.log(tips);
+console.log(totals);
+
+const calcAverage = function (arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
+
+console.log(calcAverage(bills));
+console.log(calcAverage(tips));
+console.log(calcAverage(totals));
 */

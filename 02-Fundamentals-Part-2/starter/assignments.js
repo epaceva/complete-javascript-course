@@ -172,3 +172,20 @@ for (let i = 0; i < listOfNeighbours.length; i++) {
     }
 }
 */
+// *******************************************
+// The while Loop
+/*
+const populations = ['10', '1441', '332', '83'];
+const percentage = [];
+function percentageOfWorld(population) {
+    return ((population / 7900) * 100);
+}
+let i = 0;
+
+while (i < populations.length) {
+    const perc = percentageOfWorld(populations[i]);
+    percentage.push(perc);
+    i++;
+}
+console.log(percentage);
+*/
