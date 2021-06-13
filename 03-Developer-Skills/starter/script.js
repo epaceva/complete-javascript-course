@@ -43,3 +43,52 @@ console.log(temp);
  const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
  console.log(amplitudeNew);
  */
+//********************************
+ //Debuging
+/*
+ const measureKelvin = function(){
+     const measurement = {
+         type: 'temp',
+         unit: 'cels',
+         
+         // C) FIX
+        //  value: Number(prompt('Degrees celsius:')),
+        value: 10
+     }
+
+     // B) FIND
+     console.table(measurement);
+
+    //  console.log(measurement.value);
+    //  console.warn(measurement.value);
+    //  console.error(measurement.value);
+
+     const kelvin = measurement.value + 273;
+     return kelvin;
+ };
+// A) INDENTIFY
+ console.log(measureKelvin());
+
+
+ const calcTempAmplitudeBug = function(t1, t2) {
+    const temp = t1.concat(t2);
+    console.log(temp);
+    
+        let max = 0;
+        let min = 0;
+    
+        for(let i = 0; i < temp.length; i++){
+            const curTemp = temp[i]
+            if(typeof curTemp !== 'number') continue;
+    
+            debugger;
+            if(curTemp > max) max = curTemp;
+            if(curTemp < min) min = curTemp;
+        }
+        console.log(min, max);
+        return max - min;
+    };
+     const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
+     // A) INDENTIFIED
+     console.log(amplitudeBug);
+     */
